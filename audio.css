@@ -1,0 +1,196 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.gifer.com/OSOD.gif");
+    background-size: cover;
+    filter: blur(8px);
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.player{
+    background-color: rgb(184 158 158 /50%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    box-shadow: 4px 10px 10px;
+    height: 370px;
+    width: 585px;
+
+}
+
+.row1 {
+    height: 48%;
+    width: 100%;
+    background-image: url("https://i.gifer.com/OSOD.gif");
+    background-size: cover;
+    background-position: 35%;
+    border-radius: 2px;
+}
+
+#songTitle{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+    color: #460909;
+    margin: 8px;
+    text-shadow: 1px 4px white;
+}
+
+.row2{
+    width: 100%;
+    height: 74%;
+    background-color: rgba(236 236 236 / 4%);
+}
+
+.play{
+    width: 100%;
+    height: 0%;
+    justify-content: space-evenly;
+    align-items: center;
+    display:flex;
+}
+
+#play{
+
+    height: 35px;
+    width: 35px;
+    background-size:cover;
+    margin-top:20px;
+
+}
+
+#pre{
+    height: 25px;
+    width:25px;
+    background-size:cover;
+    margin-top:20px;
+}
+
+#next{
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.seek-bar{
+    height: 26%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.handle{
+    width: 80%;
+    height: 5px;
+    background: linear-gradient(to right, #560f0f 0%, #47457f 90%);
+    border-radius: 25px;
+    margin-top: 11px
+}
+
+#fill{
+    height: 8px;
+    width: 5px;
+    border-radius: 25px;
+    background-color: white;
+    z-index: 999;
+    margin-top: -1.5px;
+    margin-left: -1.5px;
+    
+}
+
+#currentTime{
+    width: 50%;
+    height: 100%;
+    margin-left: 42px;
+    margin-top: -8px;
+    color:#2f2b31;
+}
+
+.mute{
+    height: 21%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.muteButtons{
+    width: 49%;
+    height: 139%;
+    display: flex;
+    
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+#decrease{
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 5px;
+
+}
+
+#increase{
+    height: 22.5px;
+    width: 22.5px;
+    background-size: cover;
+    margin: 3px;
+}
+
+#mute{
+    height: 22px;
+    width: 27px;
+    background-size: cover;
+    margin: 4px;
+}
+
+
+.name{
+   
+  animation-duration: 3s;
+        animation-name: slidein
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 300%;
+          width: 100%;
+        }    
+      
+        to {
+          margin-left: 15.5%;
+          width: 80%;
+        }
+      }
+
+
+      .name{
+      font-size: 20px;
+      width: 100%;
+      margin-left: 15.5%;
+      font-family: Gulzar, serif;
+      color: #243553;
+      text-shadow: 2px 3px white;
+    }
+
+
+    
