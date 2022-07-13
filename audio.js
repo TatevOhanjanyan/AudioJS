@@ -173,3 +173,12 @@ function muted() {
 
     }
     }
+
+
+    function increase() {
+        song.volume += 0.2;
+        }
+        
+        function decrease() {
+        song.volume -= 0.2;
+        }
